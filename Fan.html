@@ -4,14 +4,28 @@
 
     <!-- Header -->
     <head>
+        <!-- Required meta tags for Bootstrap -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+        <!-- Bootstrap CSS for styling and layout-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
         <title>Fan Website for Foods</title>
         <link rel="stylesheet" href="Style.css">
         
         <header>
             <h1>Welcome!</h1>
+            <div class="dropdown">
+                <button class="dropbtn btn-secondary">Foods</button>
+                <div class="dropdown-content">
+                  <a href="#pho">Pho</a>
+                  <a href="#tofustew">Tofu Stew (Soon Dubu Jigae)</a>
+                  <a href="#teriyaki">Teriyaki</a>
+                  <a href="#kalbi">Kalbi</a>
+                  <a href="#oxtailsoup">Oxtail Bone Soup</a>
+                  <a href="#kimbap">Kimbap</a>
+                </div>
+              </div>
             
         </header>
     </head>
@@ -29,34 +43,45 @@
             <li><a href="#kimbap">Kimbap</a></li>
         </ul></h5></nav>
 
-        <div id="pho">
+        
+
+        <div class="food" id="pho">
             <h3>Pho</h3>
             <p><a href="https://en.wikipedia.org/wiki/Pho" target="_blank">Learn More</a></p>
             <img src="Images/Pho.jpg" alt="Image of Pho">
         </div>
         
-        <h4 id="tofustew">Tofu Stew (Soon Dubu Jigae)</h4>
-        <p><a href="https://en.wikipedia.org/wiki/Sundubu-jjigae" target="_blank">Learn More</a></p>
-        <img src="Images/Soondubu.jpg" alt="Image of Soondubu Jigae">
+        <div class="food" id="tofustew">
+            <h4>Tofu Stew (Soon Dubu Jigae)</h4>
+            <p><a href="https://en.wikipedia.org/wiki/Sundubu-jjigae" target="_blank">Learn More</a></p>
+            <img src="Images/Soondubu.jpg" alt="Image of Soondubu Jigae">
+        </div>
 
-        <h4 id="teriyaki">Teriyaki</h4>
-        <p><a href="" target="_blank">Learn More</a></p>
-        <img src="Images/Teriyaki.jpg" alt="Image of Teriyaki">
+        <div class="food" id="teriyaki">
+            <h4>Teriyaki</h4>
+            <p><a href="https://en.wikipedia.org/wiki/Teriyaki" target="_blank">Learn More</a></p>
+            <img src="Images/Teriyaki.jpg" alt="Image of Teriyaki">
+        </div>
 
-        <h4 id="kalbi">Kalbi</h4>
-        <p><a href="" target="_blank">Learn More</a></p>
+        <div class="food" id="kalbi">
+        <h4>Kalbi</h4>
+        <p><a href="https://en.wikipedia.org/wiki/Kalbi" target="_blank">Learn More</a></p>
         <!-- <img src="Images/Kalbi.PNG" alt="Image of Kalbi"> -->
         <!-- iframe instead of video, to embed youtube video -->
         <iframe src="https://youtube.com/embed/JAF3Bpy-AsY" width="500" height="300" controls>Kabli recipe by Maangchi</iframe>
+        </div>
 
-        <h4 id="oxtailsoup">Oxtail bone soup</h4>
-        <p><a href="https://en.wikipedia.org/wiki/Seolleongtang" target="_blank">Learn More</a></p>
-        <img src="Images/Seolleongtang.jpg" alt="Image of Oxtail Bone Soup (Seolleongtang)">
+        <div class="food" id="oxtailsoup">
+            <h4>Oxtail bone soup</h4>
+            <p><a href="https://en.wikipedia.org/wiki/Seolleongtang" target="_blank">Learn More</a></p>
+            <img src="Images/Seolleongtang.jpg" alt="Image of Oxtail Bone Soup (Seolleongtang)">
+        </div>
 
-
-        <h4 id="kimbap">Kimbap</h4>
-        <p><a href="https://en.wikipedia.org/wiki/Gimbap" target="_blank">Learn More</a></p>
-        <img src="Images/Kimbap.jpg" alt="Image of Kimbap">
+        <div class="food" id="kimbap">
+            <h4>Kimbap</h4>
+            <p><a href="https://en.wikipedia.org/wiki/Gimbap" target="_blank">Learn More</a></p>
+            <img src="Images/Kimbap.jpg" alt="Image of Kimbap">
+        </div>
 
         <h6></h6>
         <h6></h6>
