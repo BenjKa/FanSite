@@ -14,19 +14,33 @@
         <link rel="stylesheet" href="Style.css">
         
         <header>
-            <h1>Welcome!</h1>
-            <div class="dropdown">
-                <button class="dropbtn btn-secondary">Foods</button>
-                <div class="dropdown-content">
-                  <a href="#pho">Pho</a>
-                  <a href="#tofustew">Tofu Stew (Soon Dubu Jigae)</a>
-                  <a href="#teriyaki">Teriyaki</a>
-                  <a href="#kalbi">Kalbi</a>
-                  <a href="#oxtailsoup">Oxtail Bone Soup</a>
-                  <a href="#kimbap">Kimbap</a>
+            <nav class="navbar navbar-expand-xxl navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="Images/stars-star-gazing.gif"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
                 </div>
-              </div>
-            
+            </nav>
         </header>
     </head>
 
