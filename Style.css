@@ -1,7 +1,7 @@
 
 header {
     height: 500px;
-    <!-- background-image: url(Images/stars-star-gazing.gif); -->
+    
     background-repeat: no-repeat;
     background-size: 50%;
     color: wheat;
@@ -10,7 +10,9 @@ header {
 }
 
 nav {
-    border: 1px solid black;
+    border: 5px dotted cadetblue;
+    background-image: url(Images/stars-star-gazing.gif);
+    height: 300px;
 }
 
 .food {
