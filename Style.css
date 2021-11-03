@@ -1,0 +1,27 @@
+
+header {
+    height: 500px;
+    width: auto;
+    background-image: url(Images/stars-star-gazing.gif);
+    background-repeat: repeat-y;
+    color: wheat;
+    font-size: large;
+    
+}
+
+nav {
+    border: 1px solid black;
+}
+
+#pho {
+    border: 2px solid salmon;
+    margin: 10px;
+}
+
+
+
+img {
+
+    height: 300px !important;
+    width: 400px !important;
+}
