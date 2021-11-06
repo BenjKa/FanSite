@@ -10,14 +10,6 @@ nav {
     
 }
 
-.food {
-    background-color: gray;
-    border: 2px solid blue;
-    margin: 100px;
-    
-}
-
-
 img {
 
     height: 300px !important;
@@ -27,5 +19,17 @@ img {
 body {
   background-image: url(Images/repeatingStarBackground.jpg);
   /*background-repeat: no-repeat;*/
+  
+}
+
+footer {
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.food {
+  background-color: gray;
+  border: 2px solid blue;
+  margin: 100px;
   
 }
