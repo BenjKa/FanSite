@@ -21,3 +21,9 @@ img {
     height: 300px !important;
     width: 400px !important;
 }
+
+body {
+  background-image: url(Images/repeatingStarBackground.jpg);
+  /*background-repeat: no-repeat;*/
+  
+}
