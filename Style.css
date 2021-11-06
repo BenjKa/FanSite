@@ -11,8 +11,10 @@ nav {
 }
 
 .food {
-    border: 2px solid salmon;
-    margin: 10px;
+    background-color: gray;
+    border: 2px solid blue;
+    margin: 100px;
+    
 }
 
 
